@@ -2,7 +2,7 @@ import * as dotenv from "dotenv";
 import OpenAI from "openai";
 import * as vscode from "vscode";
 import { TokenColors } from "./token-colors";
-import { updateSettings } from "./updateSettings";
+import { updateSettings } from "./util";
 import { ColorPalette } from "./types";
 
 dotenv.config();
@@ -11,7 +11,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const systemPrompt = `You are a color palette generator, your task is to create a color palette that best represents the user prompt. You must deliver the color palette as a JSON object, with only the properties as this example:
+const systemPrompt = `You are a color palette generator. Given a prompt describing a theme, mood or specific topic you will create a visually appealing color palette that best represents the prompt. You must deliver the color palette as a JSON object, with only the properties as this example:
   \`{
   bg0: "<hex code>",
   bg1: "<hex code>",
@@ -30,29 +30,29 @@ const systemPrompt = `You are a color palette generator, your task is to create 
   fg0: "<hex code>",
   fg: "<hex code>",
   fg1: "<hex code>",
-  red: "<hex code>",
-  orange: "<hex code>",
-  yellow: "<hex code>",
-  green: "<hex code>",
-  aqua: "<hex code>",
-  blue: "<hex code>",
-  purple: "<hex code>",
-  dimRed: "<hex code>",
-  dimOrange: "<hex code>",
-  dimYellow: "<hex code>",
-  dimGreen: "<hex code>",
-  dimAqua: "<hex code>",
-  dimBlue: "<hex code>",
-  dimPurple: "<hex code>",
+  accent1: "<hex code>",
+  accent2: "<hex code>",
+  accent3: "<hex code>",
+  accent4: "<hex code>",
+  accent5: "<hex code>",
+  accent6: "<hex code>",
+  accent7: "<hex code>",
+  dimAccent1: "<hex code>",
+  dimAccent2: "<hex code>",
+  dimAccent3: "<hex code>",
+  dimAccent4: "<hex code>",
+  dimAccent5: "<hex code>",
+  dimAccent6: "<hex code>",
+  dimAccent7: "<hex code>",
   selGreen: "<hex code>",
   selRed: "<hex code>",
   selBlue: "<hex code>",
-  diffGreen: "<hex code>",
-  diffRed: "<hex code>",
-  diffBlue: "<hex code>",
-  shadow: "<hex code>"
+  gitDiffGreen: "<hex code>",
+  gitDiffRed: "<hex code>",
+  gitDiffBlue: "<hex code>",
+  shadow: "<hex code>",
 }\`
-You must only answer with the json object.`;
+You must only answer with the json object. Note that this is for a text editor in \"dark mode\", so the foreground and accent colors should all be brighter than the background color. Also ensure that the different accents are not very similar.`;
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed

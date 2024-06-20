@@ -16,38 +16,38 @@ export class TokenColors {
 
   getSemanticColors(palette: ColorPalette) {
     return {
-      operatorOverload: `${palette.orange}`,
-      memberOperatorOverload: `${palette.orange}`,
+      operatorOverload: `${palette.accent2}`,
+      memberOperatorOverload: `${palette.accent2}`,
 
-      "variable.defaultLibrary:javascript": `${palette.purple}`,
-      "property.defaultLibrary:javascript": `${palette.purple}`,
+      "variable.defaultLibrary:javascript": `${palette.accent7}`,
+      "property.defaultLibrary:javascript": `${palette.accent7}`,
 
-      "variable.defaultLibrary:javascriptreact": `${palette.purple}`,
-      "property.defaultLibrary:javascriptreact": `${palette.purple}`,
+      "variable.defaultLibrary:javascriptreact": `${palette.accent7}`,
+      "property.defaultLibrary:javascriptreact": `${palette.accent7}`,
 
-      "class:typescript": `${palette.aqua}`,
-      "interface:typescript": `${palette.aqua}`,
-      "enum:typescript": `${palette.purple}`,
-      "enumMember:typescript": `${palette.blue}`,
-      "namespace:typescript": `${palette.purple}`,
-      "variable.defaultLibrary:typescript": `${palette.purple}`,
-      "property.defaultLibrary:typescript": `${palette.purple}`,
+      "class:typescript": `${palette.accent5}`,
+      "interface:typescript": `${palette.accent5}`,
+      "enum:typescript": `${palette.accent7}`,
+      "enumMember:typescript": `${palette.accent6}`,
+      "namespace:typescript": `${palette.accent7}`,
+      "variable.defaultLibrary:typescript": `${palette.accent7}`,
+      "property.defaultLibrary:typescript": `${palette.accent7}`,
 
-      "class:typescriptreact": `${palette.aqua}`,
-      "interface:typescriptreact": `${palette.aqua}`,
-      "enum:typescriptreact": `${palette.purple}`,
-      "enumMember:typescriptreact": `${palette.blue}`,
-      "namespace:typescriptreact": `${palette.purple}`,
-      "variable.defaultLibrary:typescriptreact": `${palette.purple}`,
-      "property.defaultLibrary:typescriptreact": `${palette.purple}`,
+      "class:typescriptreact": `${palette.accent5}`,
+      "interface:typescriptreact": `${palette.accent5}`,
+      "enum:typescriptreact": `${palette.accent7}`,
+      "enumMember:typescriptreact": `${palette.accent6}`,
+      "namespace:typescriptreact": `${palette.accent7}`,
+      "variable.defaultLibrary:typescriptreact": `${palette.accent7}`,
+      "property.defaultLibrary:typescriptreact": `${palette.accent7}`,
 
-      "intrinsic:python": `${palette.purple}`,
-      "module:python": `${palette.blue}`,
-      "class:python": `${palette.aqua}`,
+      "intrinsic:python": `${palette.accent7}`,
+      "module:python": `${palette.accent6}`,
+      "class:python": `${palette.accent5}`,
 
-      "macro:rust": `${palette.aqua}`,
-      "namespace:rust": `${palette.purple}`,
-      "selfKeyword:rust": `${palette.purple}`,
+      "macro:rust": `${palette.accent5}`,
+      "namespace:rust": `${palette.accent7}`,
+      "selfKeyword:rust": `${palette.accent7}`,
     };
   }
 
@@ -58,14 +58,14 @@ export class TokenColors {
         scope:
           "keyword, storage.type.function, storage.type.class, storage.type.enum, storage.type.interface, storage.type.property, keyword.operator.new, keyword.operator.expression, keyword.operator.new, keyword.operator.delete, storage.type.extends",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Debug",
         scope: "keyword.other.debugger",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
@@ -73,14 +73,14 @@ export class TokenColors {
         scope:
           "storage, modifier, keyword.var, entity.name.tag, keyword.control.case, keyword.control.switch",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Operator",
         scope: "keyword.operator",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
@@ -88,14 +88,14 @@ export class TokenColors {
         scope:
           "string, punctuation.definition.string.end, punctuation.definition.string.begin, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
         name: "Attribute",
         scope: "entity.other.attribute-name",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -103,7 +103,7 @@ export class TokenColors {
         scope:
           "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, constant.other.placeholder, variable.interpolation",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -111,7 +111,7 @@ export class TokenColors {
         scope:
           "entity.name.function, support.function, meta.function, meta.function-call, meta.definition.method",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -119,21 +119,21 @@ export class TokenColors {
         scope:
           "keyword.control.at-rule, keyword.control.import, keyword.control.export, storage.type.namespace, punctuation.decorator, keyword.control.directive, keyword.preprocessor, punctuation.definition.preprocessor, punctuation.definition.directive, keyword.other.import, keyword.other.package, entity.name.type.namespace, entity.name.scope-resolution, keyword.other.using, keyword.package, keyword.import, keyword.map",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Annotation",
         scope: "storage.type.annotation",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Label",
         scope: "entity.name.label, constant.other.label",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
@@ -141,14 +141,14 @@ export class TokenColors {
         scope:
           "support.module, support.node, support.other.module, support.type.object.module, entity.name.type.module, entity.name.type.class.module, keyword.control.module",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Type",
         scope: "storage.type, support.type, entity.name.type, keyword.type",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
@@ -156,28 +156,28 @@ export class TokenColors {
         scope:
           "entity.name.type.class, support.class, entity.name.class, entity.other.inherited-class, storage.class",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "Number",
         scope: "constant.numeric",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
         name: "Boolean",
         scope: "constant.language.boolean",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
         name: "Macro",
         scope: "entity.name.function.preprocessor",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
@@ -185,14 +185,14 @@ export class TokenColors {
         scope:
           "variable.language.this, variable.language.self, variable.language.super, keyword.other.this, variable.language.special, constant.language.null, constant.language.undefined, constant.language.nan",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
         name: "Constant",
         scope: "constant.language, support.constant",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
@@ -223,7 +223,7 @@ export class TokenColors {
         name: "Markdown heading1",
         scope: "heading.1.markdown, markup.heading.setext.1.markdown",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
           fontStyle: "bold",
         },
       },
@@ -231,7 +231,7 @@ export class TokenColors {
         name: "Markdown heading2",
         scope: "heading.2.markdown, markup.heading.setext.2.markdown",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
           fontStyle: "bold",
         },
       },
@@ -239,7 +239,7 @@ export class TokenColors {
         name: "Markdown heading3",
         scope: "heading.3.markdown",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
           fontStyle: "bold",
         },
       },
@@ -247,7 +247,7 @@ export class TokenColors {
         name: "Markdown heading4",
         scope: "heading.4.markdown",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
           fontStyle: "bold",
         },
       },
@@ -255,7 +255,7 @@ export class TokenColors {
         name: "Markdown heading5",
         scope: "heading.5.markdown",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
           fontStyle: "bold",
         },
       },
@@ -263,7 +263,7 @@ export class TokenColors {
         name: "Markdown heading6",
         scope: "heading.6.markdown",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
           fontStyle: "bold",
         },
       },
@@ -273,7 +273,7 @@ export class TokenColors {
         scope:
           "markup.underline.link.image.markdown, markup.underline.link.markdown",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
           fontStyle: "underline",
         },
       },
@@ -321,14 +321,14 @@ export class TokenColors {
         scope:
           "punctuation.definition.markdown, punctuation.definition.raw.markdown",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
         name: "Markdown code type",
         scope: "fenced_code.block.language",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -336,14 +336,14 @@ export class TokenColors {
         scope:
           "markup.fenced_code.block.markdown, markup.inline.raw.string.markdown",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Markdown list mark",
         scope: "punctuation.definition.list.begin.markdown",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       // }}}
@@ -352,7 +352,7 @@ export class TokenColors {
         name: "reStructuredText heading",
         scope: "punctuation.definition.heading.restructuredtext",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
           fontStyle: "bold",
         },
       },
@@ -370,21 +370,21 @@ export class TokenColors {
         scope:
           "entity.name.tag.restructuredtext, punctuation.definition.link.restructuredtext, punctuation.definition.raw.restructuredtext, punctuation.section.raw.restructuredtext",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "reStructuredText purple",
         scope: "constant.other.footnote.link.restructuredtext",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
         name: "reStructuredText red",
         scope: "support.directive.restructuredtext",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
@@ -392,7 +392,7 @@ export class TokenColors {
         scope:
           "entity.name.directive.restructuredtext, markup.raw.restructuredtext, markup.raw.inner.restructuredtext, string.other.link.title.restructuredtext",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       // }}}
@@ -409,7 +409,7 @@ export class TokenColors {
         name: "LaTex red",
         scope: "support.function.be.latex",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
@@ -417,7 +417,7 @@ export class TokenColors {
         scope:
           "support.function.section.latex, keyword.control.table.cell.latex, keyword.control.table.newline.latex",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
@@ -425,14 +425,14 @@ export class TokenColors {
         scope:
           "support.class.latex, variable.parameter.latex, variable.parameter.function.latex, variable.parameter.definition.label.latex, constant.other.reference.label.latex",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
         name: "LaTex purple",
         scope: "keyword.control.preamble.latex",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -449,7 +449,7 @@ export class TokenColors {
         scope:
           "entity.name.tag.html, entity.name.tag.xml, entity.name.tag.localname.xml",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
@@ -457,7 +457,7 @@ export class TokenColors {
         scope:
           "entity.other.attribute-name.html, entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -465,14 +465,14 @@ export class TokenColors {
         scope:
           "string.quoted.double.html, string.quoted.single.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, punctuation.separator.key-value.html, punctuation.definition.string.begin.xml, punctuation.definition.string.end.xml, string.quoted.double.xml, string.quoted.single.xml, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.xml, meta.tag.xml, meta.tag.preprocessor.xml, meta.tag.other.html, meta.tag.block.any.html, meta.tag.inline.any.html",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Html purple",
         scope: "variable.language.documentroot.xml, meta.tag.sgml.doctype.xml",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -481,7 +481,7 @@ export class TokenColors {
         name: "Proto yellow",
         scope: "storage.type.proto",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -489,14 +489,14 @@ export class TokenColors {
         scope:
           "string.quoted.double.proto.syntax, string.quoted.single.proto.syntax, string.quoted.double.proto, string.quoted.single.proto",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Proto aqua",
         scope: "entity.name.class.proto, entity.name.class.message.proto",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -513,14 +513,14 @@ export class TokenColors {
         name: "CSS red",
         scope: "entity.other.attribute-name.class.css",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "CSS orange",
         scope: "keyword.other.unit",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
@@ -528,7 +528,7 @@ export class TokenColors {
         scope:
           "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -536,21 +536,21 @@ export class TokenColors {
         scope:
           "string.quoted.single.css, string.quoted.double.css, support.constant.property-value.css, meta.property-value.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, constant.numeric.css, support.constant.font-name.css, variable.parameter.keyframe-list.css",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "CSS aqua",
         scope: "support.type.property-name.css",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "CSS blue",
         scope: "support.type.vendored.property-name.css",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
@@ -558,7 +558,7 @@ export class TokenColors {
         scope:
           "entity.name.tag.css, entity.other.keyframe-offset.css, punctuation.definition.keyword.css, keyword.control.at-rule.keyframes.css, meta.selector.css",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -575,7 +575,7 @@ export class TokenColors {
         name: "SASS orange",
         scope: "keyword.control.at-rule.keyframes.scss",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
@@ -583,7 +583,7 @@ export class TokenColors {
         scope:
           "punctuation.definition.interpolation.begin.bracket.curly.scss, punctuation.definition.interpolation.end.bracket.curly.scss",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -591,7 +591,7 @@ export class TokenColors {
         scope:
           "punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, string.quoted.double.scss, string.quoted.single.scss, constant.character.css.sass, meta.property-value.scss",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -599,7 +599,7 @@ export class TokenColors {
         scope:
           "keyword.control.at-rule.include.scss, keyword.control.at-rule.use.scss, keyword.control.at-rule.mixin.scss, keyword.control.at-rule.extend.scss, keyword.control.at-rule.import.scss",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -615,7 +615,7 @@ export class TokenColors {
         name: "Stylus yellow",
         scope: "entity.name.function.stylus",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       // }}}
@@ -639,14 +639,14 @@ export class TokenColors {
         name: "JavaScript red",
         scope: "punctuation.definition.block.tag.jsdoc",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "JavaScript orange",
         scope: "storage.type.js, storage.type.function.arrow.js",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       // }}}
@@ -663,7 +663,7 @@ export class TokenColors {
         scope:
           "punctuation.definition.tag.jsx, entity.other.attribute-name.jsx, punctuation.definition.tag.begin.js.jsx, punctuation.definition.tag.end.js.jsx, entity.other.attribute-name.js.jsx",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       // }}}
@@ -688,7 +688,7 @@ export class TokenColors {
         scope:
           "punctuation.definition.tag.directive.ts, entity.other.attribute-name.directive.ts",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -696,7 +696,7 @@ export class TokenColors {
         scope:
           "entity.name.type.ts, entity.name.type.interface.ts, entity.other.inherited-class.ts, entity.name.type.alias.ts, entity.name.type.class.ts, entity.name.type.enum.ts",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
@@ -704,14 +704,14 @@ export class TokenColors {
         scope:
           "storage.type.ts, storage.type.function.arrow.ts, storage.type.type.ts",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "TypeScript blue",
         scope: "entity.name.type.module.ts",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
@@ -719,7 +719,7 @@ export class TokenColors {
         scope:
           "keyword.control.import.ts, keyword.control.export.ts, storage.type.namespace.ts",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -744,7 +744,7 @@ export class TokenColors {
         scope:
           "punctuation.definition.tag.directive.tsx, entity.other.attribute-name.directive.tsx, punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.tsx, entity.other.attribute-name.tsx",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -752,14 +752,14 @@ export class TokenColors {
         scope:
           "entity.name.type.tsx, entity.name.type.interface.tsx, entity.other.inherited-class.tsx, entity.name.type.alias.tsx, entity.name.type.class.tsx, entity.name.type.enum.tsx",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "TSX blue",
         scope: "entity.name.type.module.tsx",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
@@ -767,7 +767,7 @@ export class TokenColors {
         scope:
           "keyword.control.import.tsx, keyword.control.export.tsx, storage.type.namespace.tsx",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
@@ -775,7 +775,7 @@ export class TokenColors {
         scope:
           "storage.type.tsx, storage.type.function.arrow.tsx, storage.type.type.tsx, support.class.component.tsx",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       // }}}
@@ -784,7 +784,7 @@ export class TokenColors {
         name: "CoffeeScript orange",
         scope: "storage.type.function.coffee",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       // }}}
@@ -801,14 +801,14 @@ export class TokenColors {
         scope:
           "keyword.other.double-colon.purescript, keyword.other.arrow.purescript, keyword.other.big-arrow.purescript",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "PureScript yellow",
         scope: "entity.name.function.purescript",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -816,14 +816,14 @@ export class TokenColors {
         scope:
           "string.quoted.single.purescript, string.quoted.double.purescript, punctuation.definition.string.begin.purescript, punctuation.definition.string.end.purescript, string.quoted.triple.purescript, entity.name.type.purescript",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "PureScript purple",
         scope: "support.other.module.purescript",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -839,14 +839,14 @@ export class TokenColors {
         name: "Dart orange",
         scope: "storage.type.primitive.dart",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Dart yellow",
         scope: "support.class.dart",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -854,21 +854,21 @@ export class TokenColors {
         scope:
           "entity.name.function.dart, string.interpolated.single.dart, string.interpolated.double.dart",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Dart blue",
         scope: "variable.language.dart",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "Dart purple",
         scope: "keyword.other.import.dart, storage.type.annotation.dart",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -877,28 +877,28 @@ export class TokenColors {
         name: "Pug red",
         scope: "entity.other.attribute-name.class.pug",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Pug orange",
         scope: "storage.type.function.pug",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Pug aqua",
         scope: "entity.other.attribute-name.tag.pug",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Pug purple",
         scope: "entity.name.tag.pug, storage.type.import.include.pug",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -924,21 +924,21 @@ export class TokenColors {
         scope:
           "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c, keyword.control.directive.conditional.ifdef.c, keyword.control.directive.endif.c, keyword.control.directive.conditional.ifndef.c, keyword.control.directive.conditional.if.c, keyword.control.directive.else.c",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "C orange",
         scope: "punctuation.separator.pointer-access.c",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "C aqua",
         scope: "variable.other.member.c",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -964,7 +964,7 @@ export class TokenColors {
         scope:
           "keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, keyword.control.directive.define.cpp, keyword.control.directive.conditional.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.undef.cpp, keyword.control.directive.conditional.ifdef.cpp, keyword.control.directive.endif.cpp, keyword.control.directive.conditional.ifndef.cpp, keyword.control.directive.conditional.if.cpp, keyword.control.directive.else.cpp, storage.type.namespace.definition.cpp, keyword.other.using.directive.cpp, storage.type.struct.cpp",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
@@ -972,14 +972,14 @@ export class TokenColors {
         scope:
           "punctuation.separator.pointer-access.cpp, punctuation.section.angle-brackets.begin.template.call.cpp, punctuation.section.angle-brackets.end.template.call.cpp",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "C++ aqua",
         scope: "variable.other.member.cpp",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -988,7 +988,7 @@ export class TokenColors {
         name: "C# red",
         scope: "keyword.other.using.cs",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
@@ -996,7 +996,7 @@ export class TokenColors {
         scope:
           "keyword.type.cs, constant.character.escape.cs, punctuation.definition.interpolation.begin.cs, punctuation.definition.interpolation.end.cs",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -1004,21 +1004,21 @@ export class TokenColors {
         scope:
           "string.quoted.double.cs, string.quoted.single.cs, punctuation.definition.string.begin.cs, punctuation.definition.string.end.cs",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "C# aqua",
         scope: "variable.other.object.property.cs",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "C# purple",
         scope: "entity.name.type.namespace.cs",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1034,7 +1034,7 @@ export class TokenColors {
         name: "F# yellow",
         scope: "keyword.format.specifier.fsharp, entity.name.type.fsharp",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -1042,21 +1042,21 @@ export class TokenColors {
         scope:
           "string.quoted.double.fsharp, string.quoted.single.fsharp, punctuation.definition.string.begin.fsharp, punctuation.definition.string.end.fsharp",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "F# blue",
         scope: "entity.name.section.fsharp",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "F# purple",
         scope: "support.function.attribute.fsharp",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1072,21 +1072,21 @@ export class TokenColors {
         name: "Java red",
         scope: "keyword.other.import.java, keyword.other.package.java",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Java orange",
         scope: "storage.type.function.arrow.java, keyword.control.ternary.java",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Java aqua",
         scope: "variable.other.property.java",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
@@ -1094,7 +1094,7 @@ export class TokenColors {
         scope:
           "variable.language.wildcard.java, storage.modifier.import.java, storage.type.annotation.java, punctuation.definition.annotation.java, storage.modifier.package.java, entity.name.type.module.java",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1103,28 +1103,28 @@ export class TokenColors {
         name: "Kotlin red",
         scope: "keyword.other.import.kotlin",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Kotlin orange",
         scope: "storage.type.kotlin",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Kotlin aqua",
         scope: "constant.language.kotlin",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Kotlin purple",
         scope: "entity.name.package.kotlin, storage.type.annotation.kotlin",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1133,21 +1133,21 @@ export class TokenColors {
         name: "Scala purple",
         scope: "entity.name.package.scala",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
         name: "Scala blue",
         scope: "constant.language.scala",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "Scala aqua",
         scope: "entity.name.import.scala",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
@@ -1155,28 +1155,28 @@ export class TokenColors {
         scope:
           "string.quoted.double.scala, string.quoted.single.scala, punctuation.definition.string.begin.scala, punctuation.definition.string.end.scala, string.quoted.double.interpolated.scala, string.quoted.single.interpolated.scala, string.quoted.triple.scala",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Scala yellow",
         scope: "entity.name.class, entity.other.inherited-class.scala",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
         name: "Scala orange",
         scope: "keyword.declaration.stable.scala, keyword.other.arrow.scala",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Scala red",
         scope: "keyword.other.import.scala",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       // }}}
@@ -1201,21 +1201,21 @@ export class TokenColors {
         scope:
           "keyword.other.import.groovy, keyword.other.package.groovy, keyword.other.import.static.groovy",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Groovy orange",
         scope: "storage.type.def.groovy",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Groovy green",
         scope: "variable.other.interpolated.groovy, meta.method.groovy",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -1223,14 +1223,14 @@ export class TokenColors {
         scope:
           "storage.modifier.import.groovy, storage.modifier.package.groovy",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Groovy purple",
         scope: "storage.type.annotation.groovy",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1239,21 +1239,21 @@ export class TokenColors {
         name: "Go red",
         scope: "keyword.type.go",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Go aqua",
         scope: "entity.name.package.go",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Go purple",
         scope: "keyword.import.go, keyword.package.go",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1277,14 +1277,14 @@ export class TokenColors {
         name: "Rust orange",
         scope: "storage.type.rust",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Rust aqua",
         scope: "support.constant.core.rust",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
@@ -1292,7 +1292,7 @@ export class TokenColors {
         scope:
           "meta.attribute.rust, variable.language.rust, storage.type.module.rust",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1308,7 +1308,7 @@ export class TokenColors {
         name: "Swift aqua",
         scope: "support.variable.swift",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -1324,14 +1324,14 @@ export class TokenColors {
         name: "PHP orange",
         scope: "storage.type.trait.php",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "PHP aqua",
         scope: "constant.language.php, support.other.namespace.php",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
@@ -1339,14 +1339,14 @@ export class TokenColors {
         scope:
           "storage.type.modifier.access.control.public.cpp, storage.type.modifier.access.control.private.cpp",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "PHP purple",
         scope: "keyword.control.import.include.php, storage.type.php",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1370,7 +1370,7 @@ export class TokenColors {
         name: "Python aqua",
         scope: "constant.language.python",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
@@ -1378,7 +1378,7 @@ export class TokenColors {
         scope:
           "keyword.control.import.python, keyword.control.import.from.python",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1387,14 +1387,14 @@ export class TokenColors {
         name: "Lua aqua",
         scope: "constant.language.lua",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Lua blue",
         scope: "entity.name.class.lua",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       // }}}
@@ -1417,14 +1417,14 @@ export class TokenColors {
         name: "Ruby orange",
         scope: "keyword.control.pseudo-method.ruby, storage.type.variable.ruby",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Ruby green",
         scope: "keyword.other.special-method.ruby",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -1432,7 +1432,7 @@ export class TokenColors {
         scope:
           "keyword.control.module.ruby, punctuation.definition.constant.ruby",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
@@ -1440,14 +1440,14 @@ export class TokenColors {
         scope:
           "string.regexp.character-class.ruby,string.regexp.interpolated.ruby,punctuation.definition.character-class.ruby,string.regexp.group.ruby, punctuation.section.regexp.ruby, punctuation.definition.group.ruby",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
         name: "Ruby blue",
         scope: "variable.other.constant.ruby",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       // }}}
@@ -1457,14 +1457,14 @@ export class TokenColors {
         scope:
           "keyword.other.arrow.haskell, keyword.other.big-arrow.haskell, keyword.other.double-colon.haskell",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Haskell yellow",
         scope: "storage.type.haskell",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -1472,21 +1472,21 @@ export class TokenColors {
         scope:
           "constant.other.haskell, string.quoted.double.haskell, string.quoted.single.haskell, punctuation.definition.string.begin.haskell, punctuation.definition.string.end.haskell",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Haskell blue",
         scope: "entity.name.function.haskell",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "Haskell aqua",
         scope: "entity.name.namespace, meta.preprocessor.haskell",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -1495,28 +1495,28 @@ export class TokenColors {
         name: "Julia red",
         scope: "keyword.control.import.julia, keyword.control.export.julia",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Julia orange",
         scope: "keyword.storage.modifier.julia",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Julia aqua",
         scope: "constant.language.julia",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Julia purple",
         scope: "support.function.macro.julia",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1532,7 +1532,7 @@ export class TokenColors {
         name: "Elm yellow",
         scope: "storage.type.elm",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       // }}}
@@ -1541,28 +1541,28 @@ export class TokenColors {
         name: "R orange",
         scope: "keyword.other.r",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "R green",
         scope: "entity.name.function.r, variable.function.r",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "R aqua",
         scope: "constant.language.r",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "R purple",
         scope: "entity.namespace.r",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1580,14 +1580,14 @@ export class TokenColors {
         scope:
           "keyword.control.directive.erlang, keyword.control.directive.define.erlang",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Erlang yellow",
         scope: "entity.name.type.class.module.erlang",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -1595,7 +1595,7 @@ export class TokenColors {
         scope:
           "string.quoted.double.erlang, string.quoted.single.erlang, punctuation.definition.string.begin.erlang, punctuation.definition.string.end.erlang",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -1603,7 +1603,7 @@ export class TokenColors {
         scope:
           "keyword.control.directive.export.erlang, keyword.control.directive.module.erlang, keyword.control.directive.import.erlang, keyword.control.directive.behaviour.erlang",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1613,21 +1613,21 @@ export class TokenColors {
         scope:
           "variable.other.readwrite.module.elixir, punctuation.definition.variable.elixir",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "Elixir blue",
         scope: "constant.language.elixir",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "Elixir purple",
         scope: "keyword.control.module.elixir",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1643,14 +1643,14 @@ export class TokenColors {
         name: "OCaml orange",
         scope: "keyword.other.ocaml",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "OCaml aqua",
         scope: "constant.language.variant.ocaml",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -1659,7 +1659,7 @@ export class TokenColors {
         name: "Perl red",
         scope: "storage.type.sub.perl, storage.type.declare.routine.perl",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       // }}}
@@ -1675,21 +1675,21 @@ export class TokenColors {
         name: "Lisp red",
         scope: "storage.type.function-type.lisp",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Lisp green",
         scope: "keyword.constant.lisp",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Lisp aqua",
         scope: "entity.name.function.lisp",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -1699,21 +1699,21 @@ export class TokenColors {
         scope:
           "constant.keyword.clojure, support.variable.clojure, meta.definition.variable.clojure",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Clojure purple",
         scope: "entity.global.clojure",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
         name: "Clojure blue",
         scope: "entity.name.function.clojure",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       // }}}
@@ -1729,7 +1729,7 @@ export class TokenColors {
         name: "Shell yellow",
         scope: "support.function.builtin.shell, entity.name.function.shell",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -1737,7 +1737,7 @@ export class TokenColors {
         scope:
           "string.quoted.double.shell, string.quoted.single.shell, punctuation.definition.string.begin.shell, punctuation.definition.string.end.shell, string.unquoted.heredoc.shell",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -1745,7 +1745,7 @@ export class TokenColors {
         scope:
           "keyword.control.heredoc-token.shell, variable.other.normal.shell, punctuation.definition.variable.shell, variable.other.special.shell, variable.other.positional.shell, variable.other.bracket.shell",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1754,14 +1754,14 @@ export class TokenColors {
         name: "Fish red",
         scope: "support.function.builtin.fish",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Fish orange",
         scope: "support.function.unix.fish",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
@@ -1769,7 +1769,7 @@ export class TokenColors {
         scope:
           "variable.other.normal.fish, punctuation.definition.variable.fish, variable.other.fixed.fish, variable.other.special.fish",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
@@ -1777,14 +1777,14 @@ export class TokenColors {
         scope:
           "string.quoted.double.fish, punctuation.definition.string.end.fish, punctuation.definition.string.begin.fish, string.quoted.single.fish",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Fish purple",
         scope: "constant.character.escape.single.fish",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1801,7 +1801,7 @@ export class TokenColors {
         scope:
           "entity.name.function.powershell, support.function.attribute.powershell, support.function.powershell",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -1809,14 +1809,14 @@ export class TokenColors {
         scope:
           "string.quoted.single.powershell, string.quoted.double.powershell, punctuation.definition.string.begin.powershell, punctuation.definition.string.end.powershell, string.quoted.double.heredoc.powershell",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "PowerShell aqua",
         scope: "variable.other.member.powershell",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -1832,14 +1832,14 @@ export class TokenColors {
         name: "GraphQL red",
         scope: "keyword.type.graphql",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "GraphQL purple",
         scope: "entity.name.fragment.graphql",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1848,21 +1848,21 @@ export class TokenColors {
         name: "Makefile orange",
         scope: "entity.name.function.target.makefile",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Makefile yellow",
         scope: "variable.other.makefile",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
         name: "Makefile green",
         scope: "meta.scope.prerequisites.makefile",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       // }}}
@@ -1871,21 +1871,21 @@ export class TokenColors {
         name: "CMake green",
         scope: "string.source.cmake",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "CMake aqua",
         scope: "entity.source.cmake",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
         name: "CMake purple",
         scope: "storage.source.cmake",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1901,21 +1901,21 @@ export class TokenColors {
         name: "VimL orange",
         scope: "storage.type.map.viml",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "VimL green",
         scope: "constant.character.map.viml, constant.character.map.key.viml",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "VimL blue",
         scope: "constant.character.map.special.viml",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       // }}}
@@ -1924,7 +1924,7 @@ export class TokenColors {
         name: "Tmux green",
         scope: "constant.language.tmux, constant.numeric.tmux",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       // }}}
@@ -1933,14 +1933,14 @@ export class TokenColors {
         name: "Dockerfile orange",
         scope: "entity.name.function.package-manager.dockerfile",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Dockerfile yellow",
         scope: "keyword.operator.flag.dockerfile",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -1948,14 +1948,14 @@ export class TokenColors {
         scope:
           "string.quoted.double.dockerfile, string.quoted.single.dockerfile",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Dockerfile aqua",
         scope: "constant.character.escape.dockerfile",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       {
@@ -1963,7 +1963,7 @@ export class TokenColors {
         scope:
           "entity.name.type.base-image.dockerfile, entity.name.image.dockerfile",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -1979,42 +1979,42 @@ export class TokenColors {
         name: "Diff red",
         scope: "markup.deleted.diff, punctuation.definition.deleted.diff",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Diff orange",
         scope: "meta.diff.range.context, punctuation.definition.range.diff",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "Diff yellow",
         scope: "meta.diff.header.from-file",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
         name: "Diff green",
         scope: "markup.inserted.diff, punctuation.definition.inserted.diff",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Diff blue",
         scope: "markup.changed.diff, punctuation.definition.changed.diff",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "Diff purple",
         scope: "punctuation.definition.from-file.diff",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       // }}}
@@ -2024,14 +2024,14 @@ export class TokenColors {
         scope:
           "entity.name.section.group-title.ini, punctuation.definition.entity.ini",
         settings: {
-          foreground: palette.red,
+          foreground: palette.accent1,
         },
       },
       {
         name: "Git orange",
         scope: "punctuation.separator.key-value.ini",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
@@ -2039,14 +2039,14 @@ export class TokenColors {
         scope:
           "string.quoted.double.ini, string.quoted.single.ini, punctuation.definition.string.begin.ini, punctuation.definition.string.end.ini",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "Git aqua",
         scope: "keyword.other.definition.ini",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -2055,7 +2055,7 @@ export class TokenColors {
         name: "SQL yellow",
         scope: "support.function.aggregate.sql",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
@@ -2063,7 +2063,7 @@ export class TokenColors {
         scope:
           "string.quoted.single.sql, punctuation.definition.string.end.sql, punctuation.definition.string.begin.sql, string.quoted.double.sql",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       // }}}
@@ -2072,21 +2072,21 @@ export class TokenColors {
         name: "GraphQL yellow",
         scope: "support.type.graphql",
         settings: {
-          foreground: palette.yellow,
+          foreground: palette.accent3,
         },
       },
       {
         name: "GraphQL blue",
         scope: "variable.parameter.graphql",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
         name: "GraphQL aqua",
         scope: "constant.character.enum.graphql",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -2103,14 +2103,14 @@ export class TokenColors {
         name: "JSON orange",
         scope: "support.type.property-name.json",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
         name: "JSON green",
         scope: "string.quoted.double.json",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       // }}}
@@ -2127,7 +2127,7 @@ export class TokenColors {
         scope:
           "string.unquoted.plain.out.yaml, string.quoted.single.yaml, string.quoted.double.yaml, punctuation.definition.string.begin.yaml, punctuation.definition.string.end.yaml, string.unquoted.plain.in.yaml, string.unquoted.block.yaml",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
@@ -2135,7 +2135,7 @@ export class TokenColors {
         scope:
           "punctuation.definition.anchor.yaml, punctuation.definition.block.sequence.item.yaml",
         settings: {
-          foreground: palette.aqua,
+          foreground: palette.accent5,
         },
       },
       // }}}
@@ -2144,7 +2144,7 @@ export class TokenColors {
         name: "TOML orange",
         scope: "keyword.key.toml",
         settings: {
-          foreground: palette.orange,
+          foreground: palette.accent2,
         },
       },
       {
@@ -2152,14 +2152,14 @@ export class TokenColors {
         scope:
           "string.quoted.single.basic.line.toml, string.quoted.single.literal.line.toml, punctuation.definition.keyValuePair.toml",
         settings: {
-          foreground: palette.green,
+          foreground: palette.accent4,
         },
       },
       {
         name: "TOML blue",
         scope: "constant.other.boolean.toml",
         settings: {
-          foreground: palette.blue,
+          foreground: palette.accent6,
         },
       },
       {
@@ -2167,7 +2167,7 @@ export class TokenColors {
         scope:
           "entity.other.attribute-name.table.toml, punctuation.definition.table.toml, entity.other.attribute-name.table.array.toml, punctuation.definition.table.array.toml",
         settings: {
-          foreground: palette.purple,
+          foreground: palette.accent7,
         },
       },
       {
@@ -2192,14 +2192,14 @@ export class TokenColors {
       "widget.shadow": `${palette.shadow}`,
       "selection.background": `${selectionBg}`,
       descriptionForeground: `${palette.grey1}`,
-      errorForeground: `${palette.red}`,
-      "icon.foreground": `${palette.aqua}`,
-      "textLink.foreground": `${palette.green}`,
-      "textLink.activeForeground": `${palette.dimGreen}`,
+      errorForeground: `${palette.accent1}`,
+      "icon.foreground": `${palette.accent5}`,
+      "textLink.foreground": `${palette.accent4}`,
+      "textLink.activeForeground": `${palette.dimAccent4}`,
       "textCodeBlock.background": `${palette.bg2}`,
       "textBlockQuote.background": `${palette.bg2}`,
       "textBlockQuote.border": `${palette.grey2}`,
-      "textPreformat.foreground": `${palette.yellow}`,
+      "textPreformat.foreground": `${palette.accent3}`,
       "toolbar.hoverBackground": `${palette.bg3}`,
       "button.background": `${palette.grey2}`,
       "button.hoverBackground": `${palette.grey1}`,
@@ -2208,7 +2208,7 @@ export class TokenColors {
       "button.secondaryForeground": `${palette.fg}`,
       "button.secondaryHoverBackground": `${palette.bg5}`,
       "checkbox.background": `${palette.bg}`,
-      "checkbox.foreground": `${palette.orange}`,
+      "checkbox.foreground": `${palette.accent2}`,
       "checkbox.border": `${palette.bg7}`,
       "dropdown.border": `${palette.bg5}`,
       "dropdown.background": `${palette.bg}`,
@@ -2217,15 +2217,15 @@ export class TokenColors {
       "input.background": `${palette.bg}00`,
       "input.foreground": `${palette.fg}`,
       "input.placeholderForeground": `${palette.grey0}`,
-      "inputOption.activeBorder": `${palette.aqua}`,
-      "inputValidation.errorBorder": `${palette.red}`,
-      "inputValidation.errorBackground": `${palette.dimRed}`,
+      "inputOption.activeBorder": `${palette.accent5}`,
+      "inputValidation.errorBorder": `${palette.accent1}`,
+      "inputValidation.errorBackground": `${palette.dimAccent1}`,
       "inputValidation.errorForeground": `${palette.fg}`,
-      "inputValidation.infoBorder": `${palette.blue}`,
-      "inputValidation.infoBackground": `${palette.dimBlue}`,
+      "inputValidation.infoBorder": `${palette.accent6}`,
+      "inputValidation.infoBackground": `${palette.dimAccent6}`,
       "inputValidation.infoForeground": `${palette.fg}`,
-      "inputValidation.warningBorder": `${palette.yellow}`,
-      "inputValidation.warningBackground": `${palette.dimYellow}`,
+      "inputValidation.warningBorder": `${palette.accent3}`,
+      "inputValidation.warningBackground": `${palette.dimAccent3}`,
       "inputValidation.warningForeground": `${palette.fg}`,
       "scrollbar.shadow": `${palette.shadow}`,
       "scrollbarSlider.activeBackground": `${palette.grey2}`,
@@ -2233,7 +2233,7 @@ export class TokenColors {
       "scrollbarSlider.background": `${palette.bg9}80`,
       "badge.background": `${palette.grey2}`,
       "badge.foreground": `${palette.bg}`,
-      "progressBar.background": `${palette.green}`,
+      "progressBar.background": `${palette.accent4}`,
       "list.activeSelectionForeground": `${palette.fg}`,
       "list.activeSelectionBackground": `${palette.bg5}60`,
       "list.inactiveSelectionForeground": `${palette.grey2}`,
@@ -2242,12 +2242,12 @@ export class TokenColors {
       "list.focusForeground": `${palette.fg}`,
       "list.focusBackground": `${palette.bg5}60`,
       "list.inactiveFocusBackground": `${palette.bg5}48`,
-      "list.highlightForeground": `${palette.green}`,
+      "list.highlightForeground": `${palette.accent4}`,
       "list.hoverForeground": `${palette.fg}`,
       "list.hoverBackground": `${palette.bg}00`,
-      "list.invalidItemForeground": `${palette.dimRed}`,
-      "list.errorForeground": `${palette.red}`,
-      "list.warningForeground": `${palette.yellow}`,
+      "list.invalidItemForeground": `${palette.dimAccent1}`,
+      "list.errorForeground": `${palette.accent1}`,
+      "list.warningForeground": `${palette.accent3}`,
       "tree.indentGuidesStroke": `${palette.grey0}`,
       "activityBar.border": `${palette.bg}`,
       "activityBar.background": `${palette.bg}`,
@@ -2263,13 +2263,13 @@ export class TokenColors {
       "sideBarSectionHeader.background": `${palette.bg}00`,
       "sideBarTitle.foreground": `${palette.grey2}`,
       "sideBarSectionHeader.foreground": `${palette.grey2}`,
-      "minimap.findMatchHighlight": `${palette.dimAqua}60`,
+      "minimap.findMatchHighlight": `${palette.dimAccent5}60`,
       "minimap.selectionHighlight": `${palette.bg6}f0`,
-      "minimap.errorHighlight": `${palette.dimRed}80`,
-      "minimap.warningHighlight": `${palette.dimYellow}80`,
-      "minimapGutter.addedBackground": `${palette.dimGreen}a0`,
-      "minimapGutter.modifiedBackground": `${palette.dimBlue}a0`,
-      "minimapGutter.deletedBackground": `${palette.dimRed}a0`,
+      "minimap.errorHighlight": `${palette.dimAccent1}80`,
+      "minimap.warningHighlight": `${palette.dimAccent3}80`,
+      "minimapGutter.addedBackground": `${palette.dimAccent4}a0`,
+      "minimapGutter.modifiedBackground": `${palette.dimAccent6}a0`,
+      "minimapGutter.deletedBackground": `${palette.dimAccent1}a0`,
       "editorGroup.border": `${palette.bg0}`,
       "editorGroupHeader.tabsBackground": `${palette.bg}`,
       "editorGroupHeader.noTabsBackground": `${palette.bg}`,
@@ -2298,14 +2298,14 @@ export class TokenColors {
       "editor.wordHighlightBackground": `${palette.bg6}58`,
       "editor.wordHighlightStrongBackground": `${palette.bg6}b0`,
       "editor.hoverHighlightBackground": `${palette.bg6}b0`,
-      "editor.findMatchBackground": `${palette.dimOrange}40`,
-      "editor.findMatchHighlightBackground": `${palette.dimGreen}40`,
+      "editor.findMatchBackground": `${palette.dimAccent2}40`,
+      "editor.findMatchHighlightBackground": `${palette.dimAccent4}40`,
       "editor.findRangeHighlightBackground": `${editorSelectionBgHl}`,
       "editor.lineHighlightBorder": `${palette.bg5}00`,
       "editor.lineHighlightBackground": `${palette.bg3}90`,
       "editor.rangeHighlightBackground": `${palette.bg3}80`,
-      "editor.symbolHighlightBackground": `${palette.dimBlue}40`,
-      "editorLink.activeForeground": `${palette.green}`,
+      "editor.symbolHighlightBackground": `${palette.dimAccent6}40`,
+      "editorLink.activeForeground": `${palette.accent4}`,
       "editorWhitespace.foreground": `${palette.bg5}`,
       "editorIndentGuide.background": `${palette.grey2}20`,
       "editorIndentGuide.activeBackground": `${palette.grey2}50`,
@@ -2320,51 +2320,51 @@ export class TokenColors {
       "editor.foldBackground": `${palette.bg5}80`,
       "editorBracketMatch.border": `${palette.bg}00`,
       "editorBracketMatch.background": `${palette.grey0}80`,
-      "editorBracketHighlight.foreground1": `${palette.red}`,
-      "editorBracketHighlight.foreground2": `${palette.yellow}`,
-      "editorBracketHighlight.foreground3": `${palette.green}`,
-      "editorBracketHighlight.foreground4": `${palette.blue}`,
-      "editorBracketHighlight.foreground5": `${palette.orange}`,
-      "editorBracketHighlight.foreground6": `${palette.purple}`,
+      "editorBracketHighlight.foreground1": `${palette.accent1}`,
+      "editorBracketHighlight.foreground2": `${palette.accent3}`,
+      "editorBracketHighlight.foreground3": `${palette.accent4}`,
+      "editorBracketHighlight.foreground4": `${palette.accent6}`,
+      "editorBracketHighlight.foreground5": `${palette.accent2}`,
+      "editorBracketHighlight.foreground6": `${palette.accent7}`,
       "editorBracketHighlight.unexpectedBracket.foreground": `${palette.grey1}`,
       "editorOverviewRuler.border": `${palette.bg}00`,
-      "editorOverviewRuler.findMatchForeground": `${palette.dimAqua}`,
-      "editorOverviewRuler.rangeHighlightForeground": `${palette.dimAqua}`,
-      "editorOverviewRuler.selectionHighlightForeground": `${palette.dimAqua}`,
+      "editorOverviewRuler.findMatchForeground": `${palette.dimAccent5}`,
+      "editorOverviewRuler.rangeHighlightForeground": `${palette.dimAccent5}`,
+      "editorOverviewRuler.selectionHighlightForeground": `${palette.dimAccent5}`,
       "editorOverviewRuler.wordHighlightForeground": `${palette.bg9}`,
       "editorOverviewRuler.wordHighlightStrongForeground": `${palette.bg9}`,
-      "editorOverviewRuler.modifiedForeground": `${palette.dimBlue}a0`,
-      "editorOverviewRuler.addedForeground": `${palette.dimGreen}a0`,
-      "editorOverviewRuler.deletedForeground": `${palette.dimRed}a0`,
-      "editorOverviewRuler.errorForeground": `${palette.red}`,
-      "editorOverviewRuler.warningForeground": `${palette.yellow}`,
-      "editorOverviewRuler.infoForeground": `${palette.purple}`,
-      "editorOverviewRuler.currentContentForeground": `${palette.dimBlue}`,
-      "editorOverviewRuler.incomingContentForeground": `${palette.dimAqua}`,
+      "editorOverviewRuler.modifiedForeground": `${palette.dimAccent6}a0`,
+      "editorOverviewRuler.addedForeground": `${palette.dimAccent4}a0`,
+      "editorOverviewRuler.deletedForeground": `${palette.dimAccent1}a0`,
+      "editorOverviewRuler.errorForeground": `${palette.accent1}`,
+      "editorOverviewRuler.warningForeground": `${palette.accent3}`,
+      "editorOverviewRuler.infoForeground": `${palette.accent7}`,
+      "editorOverviewRuler.currentContentForeground": `${palette.dimAccent6}`,
+      "editorOverviewRuler.incomingContentForeground": `${palette.dimAccent5}`,
       "editorOverviewRuler.commonContentForeground": `${palette.grey1}`,
-      "problemsErrorIcon.foreground": `${palette.red}`,
-      "problemsWarningIcon.foreground": `${palette.yellow}`,
-      "problemsInfoIcon.foreground": `${palette.blue}`,
+      "problemsErrorIcon.foreground": `${palette.accent1}`,
+      "problemsWarningIcon.foreground": `${palette.accent3}`,
+      "problemsInfoIcon.foreground": `${palette.accent6}`,
       "editorUnnecessaryCode.border": `${palette.bg}`,
       "editorUnnecessaryCode.opacity": `#00000080`,
-      "editorError.foreground": `${palette.dimRed}`,
-      "editorWarning.foreground": `${palette.dimYellow}`,
-      "editorInfo.foreground": `${palette.dimBlue}`,
-      "editorHint.foreground": `${palette.dimPurple}`,
-      "editorError.background": `${palette.dimRed}00`,
-      "editorWarning.background": `${palette.dimYellow}00`,
-      "editorInfo.background": `${palette.dimBlue}00`,
+      "editorError.foreground": `${palette.dimAccent1}`,
+      "editorWarning.foreground": `${palette.dimAccent3}`,
+      "editorInfo.foreground": `${palette.dimAccent6}`,
+      "editorHint.foreground": `${palette.dimAccent7}`,
+      "editorError.background": `${palette.dimAccent1}00`,
+      "editorWarning.background": `${palette.dimAccent3}00`,
+      "editorInfo.background": `${palette.dimAccent6}00`,
       "editorGutter.background": `${palette.bg}00`,
-      "editorGutter.modifiedBackground": `${palette.dimBlue}a0`,
-      "editorGutter.addedBackground": `${palette.dimGreen}a0`,
-      "editorGutter.deletedBackground": `${palette.dimRed}a0`,
+      "editorGutter.modifiedBackground": `${palette.dimAccent6}a0`,
+      "editorGutter.addedBackground": `${palette.dimAccent4}a0`,
+      "editorGutter.deletedBackground": `${palette.dimAccent1}a0`,
       "editorGutter.commentRangeForeground": `${palette.grey0}`,
-      "diffEditor.insertedTextBackground": `${palette.dimAqua}40`,
-      "diffEditor.removedTextBackground": `${palette.dimRed}40`,
+      "diffEditor.insertedTextBackground": `${palette.dimAccent5}40`,
+      "diffEditor.removedTextBackground": `${palette.dimAccent1}40`,
       "diffEditor.diagonalFill": `${palette.bg6}`,
       "editorSuggestWidget.background": `${palette.bg3}`,
       "editorSuggestWidget.foreground": `${palette.fg}`,
-      "editorSuggestWidget.highlightForeground": `${palette.green}`,
+      "editorSuggestWidget.highlightForeground": `${palette.accent4}`,
       "editorSuggestWidget.selectedBackground": `${palette.bg5}`,
       "editorSuggestWidget.border": `${palette.bg3}`,
       "editorWidget.background": `${palette.bg}`,
@@ -2375,72 +2375,72 @@ export class TokenColors {
       "editorGhostText.background": `${palette.bg}00`,
       "editorGhostText.foreground": `${palette.bg9}`,
       "editorMarkerNavigation.background": `${palette.bg2}`,
-      "editorMarkerNavigationError.background": `${palette.dimRed}80`,
-      "editorMarkerNavigationWarning.background": `${palette.dimYellow}80`,
-      "editorMarkerNavigationInfo.background": `${palette.dimBlue}80`,
+      "editorMarkerNavigationError.background": `${palette.dimAccent1}80`,
+      "editorMarkerNavigationWarning.background": `${palette.dimAccent3}80`,
+      "editorMarkerNavigationInfo.background": `${palette.dimAccent6}80`,
       "peekView.border": `${palette.bg4}`,
       "peekViewEditor.background": `${palette.bg2}`,
-      "peekViewEditor.matchHighlightBackground": `${palette.dimYellow}50`,
+      "peekViewEditor.matchHighlightBackground": `${palette.dimAccent3}50`,
       "peekViewEditorGutter.background": `${palette.bg2}`,
       "peekViewResult.fileForeground": `${palette.fg}`,
       "peekViewResult.lineForeground": `${palette.grey2}`,
-      "peekViewResult.matchHighlightBackground": `${palette.dimYellow}50`,
-      "peekViewResult.selectionBackground": `${palette.dimAqua}50`,
+      "peekViewResult.matchHighlightBackground": `${palette.dimAccent3}50`,
+      "peekViewResult.selectionBackground": `${palette.dimAccent5}50`,
       "peekViewResult.selectionForeground": `${palette.fg1}`,
       "peekViewTitleDescription.foreground": `${palette.fg1}`,
-      "peekViewTitleLabel.foreground": `${palette.green}`,
+      "peekViewTitleLabel.foreground": `${palette.accent4}`,
       "peekViewResult.background": `${palette.bg2}`,
       "peekViewTitle.background": `${palette.bg4}`,
       "pickerGroup.border": `${palette.fg0}1a`,
       "terminal.foreground": `${palette.fg}`,
       "terminalCursor.foreground": `${cursorFg}`,
       "terminal.ansiBlack": `${palette.bg2}`,
-      "terminal.ansiBlue": `${palette.blue}`,
+      "terminal.ansiBlue": `${palette.accent6}`,
       "terminal.ansiBrightBlack": `${palette.grey1}`,
-      "terminal.ansiBrightBlue": `${palette.blue}`,
-      "terminal.ansiBrightCyan": `${palette.aqua}`,
-      "terminal.ansiBrightGreen": `${palette.green}`,
-      "terminal.ansiBrightMagenta": `${palette.purple}`,
-      "terminal.ansiBrightRed": `${palette.red}`,
+      "terminal.ansiBrightBlue": `${palette.accent6}`,
+      "terminal.ansiBrightCyan": `${palette.accent5}`,
+      "terminal.ansiBrightGreen": `${palette.accent4}`,
+      "terminal.ansiBrightMagenta": `${palette.accent7}`,
+      "terminal.ansiBrightRed": `${palette.accent1}`,
       "terminal.ansiBrightWhite": `${palette.fg0}`,
-      "terminal.ansiBrightYellow": `${palette.yellow}`,
-      "terminal.ansiCyan": `${palette.aqua}`,
-      "terminal.ansiGreen": `${palette.green}`,
-      "terminal.ansiMagenta": `${palette.purple}`,
-      "terminal.ansiRed": `${palette.red}`,
+      "terminal.ansiBrightYellow": `${palette.accent3}`,
+      "terminal.ansiCyan": `${palette.accent5}`,
+      "terminal.ansiGreen": `${palette.accent4}`,
+      "terminal.ansiMagenta": `${palette.accent7}`,
+      "terminal.ansiRed": `${palette.accent1}`,
       "terminal.ansiWhite": `${palette.fg}`,
-      "terminal.ansiYellow": `${palette.yellow}`,
+      "terminal.ansiYellow": `${palette.accent3}`,
       "debugToolBar.background": `${palette.bg}`,
-      "debugTokenExpression.name": `${palette.blue}`,
-      "debugTokenExpression.value": `${palette.green}`,
-      "debugTokenExpression.string": `${palette.yellow}`,
-      "debugTokenExpression.boolean": `${palette.purple}`,
-      "debugTokenExpression.number": `${palette.purple}`,
-      "debugTokenExpression.error": `${palette.red}`,
-      "debugIcon.breakpointForeground": `${palette.red}`,
-      "debugIcon.breakpointDisabledForeground": `${palette.dimRed}`,
+      "debugTokenExpression.name": `${palette.accent6}`,
+      "debugTokenExpression.value": `${palette.accent4}`,
+      "debugTokenExpression.string": `${palette.accent3}`,
+      "debugTokenExpression.boolean": `${palette.accent7}`,
+      "debugTokenExpression.number": `${palette.accent7}`,
+      "debugTokenExpression.error": `${palette.accent1}`,
+      "debugIcon.breakpointForeground": `${palette.accent1}`,
+      "debugIcon.breakpointDisabledForeground": `${palette.dimAccent1}`,
       "debugIcon.breakpointUnverifiedForeground": `${palette.grey2}`,
-      "debugIcon.breakpointCurrentStackframeForeground": `${palette.blue}`,
-      "debugIcon.breakpointStackframeForeground": `${palette.red}`,
-      "debugIcon.startForeground": `${palette.aqua}`,
-      "debugIcon.pauseForeground": `${palette.yellow}`,
-      "debugIcon.stopForeground": `${palette.red}`,
-      "debugIcon.disconnectForeground": `${palette.purple}`,
-      "debugIcon.restartForeground": `${palette.aqua}`,
-      "debugIcon.stepOverForeground": `${palette.blue}`,
-      "debugIcon.stepIntoForeground": `${palette.blue}`,
-      "debugIcon.stepOutForeground": `${palette.blue}`,
-      "debugIcon.continueForeground": `${palette.blue}`,
-      "debugIcon.stepBackForeground": `${palette.blue}`,
-      "debugConsole.infoForeground": `${palette.green}`,
-      "debugConsole.warningForeground": `${palette.yellow}`,
-      "debugConsole.errorForeground": `${palette.red}`,
-      "debugConsole.sourceForeground": `${palette.purple}`,
-      "debugConsoleInputIcon.foreground": `${palette.aqua}`,
-      "merge.incomingHeaderBackground": `${palette.dimAqua}80`,
-      "merge.incomingContentBackground": `${palette.dimAqua}40`,
-      "merge.currentHeaderBackground": `${palette.dimBlue}80`,
-      "merge.currentContentBackground": `${palette.dimBlue}40`,
+      "debugIcon.breakpointCurrentStackframeForeground": `${palette.accent6}`,
+      "debugIcon.breakpointStackframeForeground": `${palette.accent1}`,
+      "debugIcon.startForeground": `${palette.accent5}`,
+      "debugIcon.pauseForeground": `${palette.accent3}`,
+      "debugIcon.stopForeground": `${palette.accent1}`,
+      "debugIcon.disconnectForeground": `${palette.accent7}`,
+      "debugIcon.restartForeground": `${palette.accent5}`,
+      "debugIcon.stepOverForeground": `${palette.accent6}`,
+      "debugIcon.stepIntoForeground": `${palette.accent6}`,
+      "debugIcon.stepOutForeground": `${palette.accent6}`,
+      "debugIcon.continueForeground": `${palette.accent6}`,
+      "debugIcon.stepBackForeground": `${palette.accent6}`,
+      "debugConsole.infoForeground": `${palette.accent4}`,
+      "debugConsole.warningForeground": `${palette.accent3}`,
+      "debugConsole.errorForeground": `${palette.accent1}`,
+      "debugConsole.sourceForeground": `${palette.accent7}`,
+      "debugConsoleInputIcon.foreground": `${palette.accent5}`,
+      "merge.incomingHeaderBackground": `${palette.dimAccent5}80`,
+      "merge.incomingContentBackground": `${palette.dimAccent5}40`,
+      "merge.currentHeaderBackground": `${palette.dimAccent6}80`,
+      "merge.currentContentBackground": `${palette.dimAccent6}40`,
       "merge.border": `${palette.bg}00`,
       "panel.background": `${palette.bg}`,
       "panel.border": `${palette.bg}`,
@@ -2454,7 +2454,7 @@ export class TokenColors {
       "statusBar.background": `${palette.bg}`,
       "statusBar.foreground": `${palette.grey2}`,
       "statusBar.border": `${palette.bg}`,
-      "statusBar.debuggingForeground": `${palette.orange}`,
+      "statusBar.debuggingForeground": `${palette.accent2}`,
       "statusBar.debuggingBackground": `${palette.bg}`,
       "statusBar.noFolderBackground": `${palette.bg}`,
       "statusBar.noFolderForeground": `${palette.grey2}`,
@@ -2467,9 +2467,9 @@ export class TokenColors {
       "statusBarItem.remoteBackground": `${palette.bg}`,
       "statusBarItem.remoteForeground": `${palette.grey2}`,
       "statusBarItem.errorBackground": `${palette.bg}`,
-      "statusBarItem.errorForeground": `${palette.red}`,
+      "statusBarItem.errorForeground": `${palette.accent1}`,
       "statusBarItem.warningBackground": `${palette.bg}`,
-      "statusBarItem.warningForeground": `${palette.yellow}`,
+      "statusBarItem.warningForeground": `${palette.accent3}`,
       "titleBar.activeBackground": `${palette.bg}`,
       "titleBar.activeForeground": `${palette.grey2}`,
       "titleBar.inactiveBackground": `${palette.bg}`,
@@ -2481,31 +2481,31 @@ export class TokenColors {
       "menu.background": `${palette.bg}`,
       "menu.selectionForeground": `${palette.fg}`,
       "menu.selectionBackground": `${palette.bg2}`,
-      "gitDecoration.addedResourceForeground": `${palette.green}a0`,
-      "gitDecoration.modifiedResourceForeground": `${palette.blue}a0`,
-      "gitDecoration.deletedResourceForeground": `${palette.red}a0`,
-      "gitDecoration.untrackedResourceForeground": `${palette.yellow}a0`,
+      "gitDecoration.addedResourceForeground": `${palette.accent4}a0`,
+      "gitDecoration.modifiedResourceForeground": `${palette.accent6}a0`,
+      "gitDecoration.deletedResourceForeground": `${palette.accent1}a0`,
+      "gitDecoration.untrackedResourceForeground": `${palette.accent3}a0`,
       "gitDecoration.ignoredResourceForeground": `${palette.bg7}`,
-      "gitDecoration.conflictingResourceForeground": `${palette.purple}a0`,
-      "gitDecoration.submoduleResourceForeground": `${palette.orange}a0`,
-      "gitDecoration.stageDeletedResourceForeground": `${palette.aqua}a0`,
-      "gitDecoration.stageModifiedResourceForeground": `${palette.aqua}a0`,
+      "gitDecoration.conflictingResourceForeground": `${palette.accent7}a0`,
+      "gitDecoration.submoduleResourceForeground": `${palette.accent2}a0`,
+      "gitDecoration.stageDeletedResourceForeground": `${palette.accent5}a0`,
+      "gitDecoration.stageModifiedResourceForeground": `${palette.accent5}a0`,
       "notificationCenterHeader.foreground": `${palette.fg0}`,
       "notificationCenterHeader.background": `${palette.bg6}`,
       "notifications.foreground": `${palette.fg}`,
       "notifications.background": `${palette.bg}`,
-      "notificationLink.foreground": `${palette.green}`,
-      "notificationsErrorIcon.foreground": `${palette.red}`,
-      "notificationsWarningIcon.foreground": `${palette.yellow}`,
-      "notificationsInfoIcon.foreground": `${palette.blue}`,
+      "notificationLink.foreground": `${palette.accent4}`,
+      "notificationsErrorIcon.foreground": `${palette.accent1}`,
+      "notificationsWarningIcon.foreground": `${palette.accent3}`,
+      "notificationsInfoIcon.foreground": `${palette.accent6}`,
       "extensionButton.prominentForeground": `${palette.bg}`,
       "extensionButton.prominentBackground": `${palette.grey2}`,
       "extensionButton.prominentHoverBackground": `${palette.grey1}`,
       "extensionBadge.remoteBackground": `${palette.grey2}`,
       "extensionBadge.remoteForeground": `${palette.bg}`,
-      "extensionIcon.starForeground": `${palette.aqua}`,
-      "extensionIcon.verifiedForeground": `${palette.green}`,
-      "extensionIcon.preReleaseForeground": `${palette.orange}`,
+      "extensionIcon.starForeground": `${palette.accent5}`,
+      "extensionIcon.verifiedForeground": `${palette.accent4}`,
+      "extensionIcon.preReleaseForeground": `${palette.accent2}`,
       "pickerGroup.foreground": `${palette.fg}`,
       "quickInputTitle.background": `${palette.bg4}`,
       "keybindingLabel.background": `${palette.bg}00`,
@@ -2516,23 +2516,23 @@ export class TokenColors {
       "keybindingTable.rowsBackground": `${palette.bg2}`,
       "settings.headerForeground": `${palette.grey2}`,
       "settings.numberInputBackground": `${palette.bg}`,
-      "settings.numberInputForeground": `${palette.purple}`,
+      "settings.numberInputForeground": `${palette.accent7}`,
       "settings.numberInputBorder": `${palette.bg7}`,
       "settings.textInputBackground": `${palette.bg}`,
-      "settings.textInputForeground": `${palette.blue}`,
+      "settings.textInputForeground": `${palette.accent6}`,
       "settings.textInputBorder": `${palette.bg7}`,
       "settings.checkboxBackground": `${palette.bg}`,
-      "settings.checkboxForeground": `${palette.orange}`,
+      "settings.checkboxForeground": `${palette.accent2}`,
       "settings.checkboxBorder": `${palette.bg7}`,
       "settings.dropdownBackground": `${palette.bg}`,
-      "settings.dropdownForeground": `${palette.aqua}`,
+      "settings.dropdownForeground": `${palette.accent5}`,
       "settings.dropdownBorder": `${palette.bg7}`,
       "settings.modifiedItemIndicator": `${palette.grey0}`,
       "settings.focusedRowBackground": `${palette.bg2}`,
       "settings.rowHoverBackground": `${palette.bg2}`,
-      "editorLightBulb.foreground": `${palette.yellow}`,
-      "editorLightBulbAutoFix.foreground": `${palette.aqua}`,
-      "welcomePage.progress.foreground": `${palette.green}`,
+      "editorLightBulb.foreground": `${palette.accent3}`,
+      "editorLightBulbAutoFix.foreground": `${palette.accent5}`,
+      "welcomePage.progress.foreground": `${palette.accent4}`,
       "welcomePage.tileHoverBackground": `${palette.bg2}`,
       "welcomePage.buttonBackground": `${palette.bg2}`,
       "welcomePage.buttonHoverBackground": `${palette.bg2}a0`,
@@ -2547,95 +2547,95 @@ export class TokenColors {
       "symbolIcon.folderForeground": `${palette.fg}`,
       "symbolIcon.textForeground": `${palette.fg}`,
       "symbolIcon.unitForeground": `${palette.fg}`,
-      "symbolIcon.keywordForeground": `${palette.red}`,
-      "symbolIcon.operatorForeground": `${palette.orange}`,
-      "symbolIcon.classForeground": `${palette.yellow}`,
-      "symbolIcon.eventForeground": `${palette.yellow}`,
-      "symbolIcon.interfaceForeground": `${palette.yellow}`,
-      "symbolIcon.structForeground": `${palette.yellow}`,
-      "symbolIcon.functionForeground": `${palette.green}`,
-      "symbolIcon.keyForeground": `${palette.green}`,
-      "symbolIcon.methodForeground": `${palette.green}`,
-      "symbolIcon.stringForeground": `${palette.green}`,
-      "symbolIcon.constantForeground": `${palette.aqua}`,
-      "symbolIcon.enumeratorMemberForeground": `${palette.aqua}`,
-      "symbolIcon.nullForeground": `${palette.aqua}`,
-      "symbolIcon.propertyForeground": `${palette.aqua}`,
-      "symbolIcon.typeParameterForeground": `${palette.aqua}`,
-      "symbolIcon.arrayForeground": `${palette.blue}`,
-      "symbolIcon.referenceForeground": `${palette.blue}`,
-      "symbolIcon.variableForeground": `${palette.blue}`,
-      "symbolIcon.booleanForeground": `${palette.purple}`,
-      "symbolIcon.constructorForeground": `${palette.purple}`,
-      "symbolIcon.enumeratorForeground": `${palette.purple}`,
-      "symbolIcon.moduleForeground": `${palette.purple}`,
-      "symbolIcon.namespaceForeground": `${palette.purple}`,
-      "symbolIcon.numberForeground": `${palette.purple}`,
-      "symbolIcon.objectForeground": `${palette.purple}`,
-      "symbolIcon.packageForeground": `${palette.purple}`,
+      "symbolIcon.keywordForeground": `${palette.accent1}`,
+      "symbolIcon.operatorForeground": `${palette.accent2}`,
+      "symbolIcon.classForeground": `${palette.accent3}`,
+      "symbolIcon.eventForeground": `${palette.accent3}`,
+      "symbolIcon.interfaceForeground": `${palette.accent3}`,
+      "symbolIcon.structForeground": `${palette.accent3}`,
+      "symbolIcon.functionForeground": `${palette.accent4}`,
+      "symbolIcon.keyForeground": `${palette.accent4}`,
+      "symbolIcon.methodForeground": `${palette.accent4}`,
+      "symbolIcon.stringForeground": `${palette.accent4}`,
+      "symbolIcon.constantForeground": `${palette.accent5}`,
+      "symbolIcon.enumeratorMemberForeground": `${palette.accent5}`,
+      "symbolIcon.nullForeground": `${palette.accent5}`,
+      "symbolIcon.propertyForeground": `${palette.accent5}`,
+      "symbolIcon.typeParameterForeground": `${palette.accent5}`,
+      "symbolIcon.arrayForeground": `${palette.accent6}`,
+      "symbolIcon.referenceForeground": `${palette.accent6}`,
+      "symbolIcon.variableForeground": `${palette.accent6}`,
+      "symbolIcon.booleanForeground": `${palette.accent7}`,
+      "symbolIcon.constructorForeground": `${palette.accent7}`,
+      "symbolIcon.enumeratorForeground": `${palette.accent7}`,
+      "symbolIcon.moduleForeground": `${palette.accent7}`,
+      "symbolIcon.namespaceForeground": `${palette.accent7}`,
+      "symbolIcon.numberForeground": `${palette.accent7}`,
+      "symbolIcon.objectForeground": `${palette.accent7}`,
+      "symbolIcon.packageForeground": `${palette.accent7}`,
       "editor.snippetTabstopHighlightBackground": `${palette.bg5}a0`,
-      "editor.snippetFinalTabstopHighlightBackground": `${palette.dimGreen}40`,
+      "editor.snippetFinalTabstopHighlightBackground": `${palette.dimAccent4}40`,
       "editor.snippetFinalTabstopHighlightBorder": `${palette.bg}`,
-      "charts.red": `${palette.red}`,
-      "charts.orange": `${palette.orange}`,
-      "charts.yellow": `${palette.yellow}`,
-      "charts.green": `${palette.green}`,
-      "charts.blue": `${palette.blue}`,
-      "charts.purple": `${palette.purple}`,
+      "charts.red": `${palette.accent1}`,
+      "charts.orange": `${palette.accent2}`,
+      "charts.yellow": `${palette.accent3}`,
+      "charts.green": `${palette.accent4}`,
+      "charts.blue": `${palette.accent6}`,
+      "charts.purple": `${palette.accent7}`,
       "charts.foreground": `${palette.fg}`,
-      "ports.iconRunningProcessForeground": `${palette.orange}`,
+      "ports.iconRunningProcessForeground": `${palette.accent2}`,
       "sash.hoverBorder": `${palette.grey0}`,
       "notebook.cellBorderColor": `${palette.bg7}`,
       "notebook.cellStatusBarItemHoverBackground": `${palette.bg4}`,
       "notebook.focusedCellBackground": `${palette.bg}`,
       "notebook.cellHoverBackground": `${palette.bg}`,
       "notebook.outputContainerBackgroundColor": `${palette.bg2}`,
-      "notebookStatusSuccessIcon.foreground": `${palette.green}`,
-      "notebookStatusErrorIcon.foreground": `${palette.red}`,
-      "notebookStatusRunningIcon.foreground": `${palette.blue}`,
+      "notebookStatusSuccessIcon.foreground": `${palette.accent4}`,
+      "notebookStatusErrorIcon.foreground": `${palette.accent1}`,
+      "notebookStatusRunningIcon.foreground": `${palette.accent6}`,
       "notebook.focusedCellBorder": `${palette.bg7}`,
       "notebook.focusedEditorBorder": `${palette.bg7}`,
       "notebook.selectedCellBorder": `${palette.bg7}`,
       "notebook.focusedRowBorder": `${palette.bg7}`,
       "notebook.inactiveFocusedCellBorder": `${palette.bg7}`,
       "notebook.cellToolbarSeparator": `${palette.bg7}`,
-      "testing.iconFailed": `${palette.red}`,
-      "testing.iconErrored": `${palette.red}`,
-      "testing.iconPassed": `${palette.aqua}`,
-      "testing.runAction": `${palette.aqua}`,
-      "testing.iconQueued": `${palette.blue}`,
-      "testing.iconUnset": `${palette.yellow}`,
-      "testing.iconSkipped": `${palette.purple}`,
+      "testing.iconFailed": `${palette.accent1}`,
+      "testing.iconErrored": `${palette.accent1}`,
+      "testing.iconPassed": `${palette.accent5}`,
+      "testing.runAction": `${palette.accent5}`,
+      "testing.iconQueued": `${palette.accent6}`,
+      "testing.iconUnset": `${palette.accent3}`,
+      "testing.iconSkipped": `${palette.accent7}`,
       "gitlens.gutterBackgroundColor": `${palette.bg}`,
       "gitlens.gutterForegroundColor": `${palette.fg}`,
-      "gitlens.gutterUncommittedForegroundColor": `${palette.blue}`,
+      "gitlens.gutterUncommittedForegroundColor": `${palette.accent6}`,
       "gitlens.trailingLineForegroundColor": `${palette.grey1}`,
       "gitlens.lineHighlightBackgroundColor": `${palette.bg2}`,
       "gitlens.lineHighlightOverviewRulerColor": `${palette.grey2}`,
-      "gitlens.closedPullRequestIconColor": `${palette.red}`,
-      "gitlens.openPullRequestIconColor": `${palette.aqua}`,
-      "gitlens.mergedPullRequestIconColor": `${palette.purple}`,
-      "gitlens.unpushlishedChangesIconColor": `${palette.blue}`,
-      "gitlens.unpublishedCommitIconColor": `${palette.yellow}`,
-      "gitlens.unpulledChangesIconColor": `${palette.orange}`,
-      "gitlens.decorations.addedForegroundColor": `${palette.green}`,
-      "gitlens.decorations.copiedForegroundColor": `${palette.purple}`,
-      "gitlens.decorations.deletedForegroundColor": `${palette.red}`,
+      "gitlens.closedPullRequestIconColor": `${palette.accent1}`,
+      "gitlens.openPullRequestIconColor": `${palette.accent5}`,
+      "gitlens.mergedPullRequestIconColor": `${palette.accent7}`,
+      "gitlens.unpushlishedChangesIconColor": `${palette.accent6}`,
+      "gitlens.unpublishedCommitIconColor": `${palette.accent3}`,
+      "gitlens.unpulledChangesIconColor": `${palette.accent2}`,
+      "gitlens.decorations.addedForegroundColor": `${palette.accent4}`,
+      "gitlens.decorations.copiedForegroundColor": `${palette.accent7}`,
+      "gitlens.decorations.deletedForegroundColor": `${palette.accent1}`,
       "gitlens.decorations.ignoredForegroundColor": `${palette.grey2}`,
-      "gitlens.decorations.modifiedForegroundColor": `${palette.blue}`,
-      "gitlens.decorations.untrackedForegroundColor": `${palette.yellow}`,
-      "gitlens.decorations.renamedForegroundColor": `${palette.purple}`,
-      "gitlens.decorations.branchAheadForegroundColor": `${palette.aqua}`,
-      "gitlens.decorations.branchBehindForegroundColor": `${palette.orange}`,
-      "gitlens.decorations.branchDivergedForegroundColor": `${palette.yellow}`,
+      "gitlens.decorations.modifiedForegroundColor": `${palette.accent6}`,
+      "gitlens.decorations.untrackedForegroundColor": `${palette.accent3}`,
+      "gitlens.decorations.renamedForegroundColor": `${palette.accent7}`,
+      "gitlens.decorations.branchAheadForegroundColor": `${palette.accent5}`,
+      "gitlens.decorations.branchBehindForegroundColor": `${palette.accent2}`,
+      "gitlens.decorations.branchDivergedForegroundColor": `${palette.accent3}`,
       "gitlens.decorations.branchUpToDateForegroundColor": `${palette.fg}`,
-      "gitlens.decorations.branchUnpublishedForegroundColor": `${palette.blue}`,
-      "gitlens.decorations.branchMissingUpstreamForegroundColor": `${palette.red}`,
-      "issues.open": `${palette.aqua}`,
-      "issues.closed": `${palette.red}`,
+      "gitlens.decorations.branchUnpublishedForegroundColor": `${palette.accent6}`,
+      "gitlens.decorations.branchMissingUpstreamForegroundColor": `${palette.accent1}`,
+      "issues.open": `${palette.accent5}`,
+      "issues.closed": `${palette.accent1}`,
       "rust_analyzer.inlayHints.foreground": `${palette.bg9}`,
       "rust_analyzer.inlayHints.background": `${palette.bg}00`,
-      "rust_analyzer.syntaxTreeBorder": `${palette.red}`,
+      "rust_analyzer.syntaxTreeBorder": `${palette.accent1}`,
     };
     return tokens;
   }
