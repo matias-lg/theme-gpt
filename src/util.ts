@@ -1,10 +1,19 @@
 import * as vscode from "vscode";
-import { TokenColors } from "./token-colors";
+import { TokenColors } from "./tokenColors";
 import {
   THEME_NAME,
   TOKEN_COLOR_SETTING,
   WORKBENCH_SETTING,
 } from "./constants";
+import { ColorPalette } from "./types";
+
+export function logPaletteGenerated(userPrompt: string, palette: ColorPalette) {
+  return `-- Generated palette --
+  user prompt: \"${userPrompt}\"
+  palette:
+  ${JSON.stringify(palette, null, 2)}
+  `;
+}
 
 export function updateSettings(tokenColors: TokenColors) {
   const config = vscode.workspace.getConfiguration();
