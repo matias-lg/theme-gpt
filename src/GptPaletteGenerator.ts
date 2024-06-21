@@ -42,7 +42,7 @@ const systemPrompt = `You are a color palette generator. Given a prompt describi
   gitDiffBlue: "<hex code>",
   shadow: "<hex code>",
 }\`
-You must only answer with the json object. Note that this is for a text editor in \"dark mode\", so the foreground and accent colors should all be brighter than the background color. Also ensure that the different accents are not very similar.`;
+You must only answer with the json object. Note that this is for a text editor in \"dark mode\", so the foreground and accent colors should all be brighter than the background color. Remember to incorporate the main aspects of the theme into the background ("bg"), grey, and foreground ("fg") colors. Also ensure that the different accents are not very similar, but mantain an aesthetically pleasing palette.`;
 
 export class GptPaletteGenerator {
   private openai: OpenAI;
