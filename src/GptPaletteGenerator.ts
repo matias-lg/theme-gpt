@@ -46,17 +46,18 @@ You must only answer with the json object. Note that this is for a text editor i
 
 export class GptPaletteGenerator {
   private openai: OpenAI;
+  private modelToUse: OpenAI.Chat.ChatModel;
 
-  constructor() {
+  constructor(apiKey: string, model: OpenAI.Chat.ChatModel) {
     this.openai = new OpenAI({
-      // TODO: read from vscode user setting
-      apiKey: process.env.OPENAI_API_KEY,
+      apiKey,
     });
+    this.modelToUse = model;
   }
 
   async generatePalette(userPrompt: string): Promise<ColorPalette | null> {
     const completion = await this.openai.chat.completions.create({
-      model: "gpt-4o",
+      model: this.modelToUse,
       response_format: { type: "json_object" },
       messages: [
         { role: "system", content: systemPrompt },
