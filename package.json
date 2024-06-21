@@ -1,6 +1,7 @@
 {
   "name": "theme-gpt",
   "displayName": "theme-gpt",
+  "publisher": "matias-lg",
   "description": "",
   "version": "0.0.1",
   "engines": {
