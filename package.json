@@ -2,6 +2,10 @@
   "name": "theme-gpt",
   "displayName": "theme-gpt",
   "publisher": "matias-lg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matias-lg/theme-gpt.git"
+  },
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -91,7 +95,6 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
     "openai": "^4.51.0"
   }
 }
