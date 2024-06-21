@@ -7,7 +7,7 @@
     "url": "https://github.com/matias-lg/theme-gpt.git"
   },
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -72,6 +72,10 @@
       {
         "command": "theme-gpt.setOpenAiApiKey",
         "title": "Theme GPT: Set OpenAI Api Key"
+      },
+      {
+        "command": "theme-gpt.setGptModel",
+        "title": "Theme GPT: Set GPT model"
       }
     ]
   },
